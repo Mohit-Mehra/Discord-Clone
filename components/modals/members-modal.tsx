@@ -59,7 +59,6 @@ export const MembersModal = () => {
         url: `/api/members/${memberId}`,
         query: {
           serverId: server?.id,
-          memberId,
         },
       });
       const response = await axios.patch(url, { role });
@@ -120,7 +119,9 @@ export const MembersModal = () => {
                                 )}
                               </DropdownMenuItem>
                               <DropdownMenuItem
-                                onClick={() => onRoleChange(member.id, "MODERATOR")}
+                                onClick={() =>
+                                  onRoleChange(member.id, "MODERATOR")
+                                }
                               >
                                 <ShieldCheck className="h-4 w-4 mr-2" />
                                 Moderator
