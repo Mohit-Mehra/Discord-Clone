@@ -1,6 +1,61 @@
-# Discord Clone
+# Discord Clone 
 
 Welcome to the Discord Clone project! This is a feature-rich messaging application designed to replicate the popular Discord platform. It offers real-time messaging, attachment sharing, voice and video calls, advanced member management, and more. Below, we provide essential information to set up and use this Discord clone effectively.
+
+## Table of Contents
+
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Getting Started
+
+### Prerequisites
+
+Before you begin, ensure you have the following tools and dependencies installed on your system:
+
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
+- [Git](https://git-scm.com/)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Mohit-Mehra/Discord-Clone.git
+   ```
+
+2. Install server dependencies:
+
+   ```bash
+   npm install  # or yarn install
+   ```
+
+3. Create a `.env` file and configure your environment variables. You can use `.env.example` as a template.
+
+4. Migrate the database using Prisma:
+
+   ```bash
+   npx prisma migrate dev
+   ```
+
+5. Start the server:
+
+   ```bash
+   npm run dev  # or yarn dev
+   ```
+
+## Usage
+
+1. Open your web browser and navigate to `http://localhost:3000` to access the Discord clone.
+2. Create an account or log in to an existing one.
+3. Explore the chat rooms, send messages, and upload files.
 
 ## Key Features
 
@@ -68,19 +123,11 @@ Our application employs Prisma as its Object-Relational Mapping (ORM) tool and s
 
 User authentication is seamlessly handled by Clerk, ensuring the utmost security for your application.
 
-## Getting Started
+## Technologies Used
 
-Follow these steps to set up and run the Discord Clone:
-
-1. **Clone the Repository**: Clone this repository to your local machine.
-
-2. **Install Dependencies**: Execute `npm install` to install all required dependencies.
-
-3. **Database Configuration**: Configure your MySQL database using Planetscale and update the database connection settings in the application.
-
-4. **Authentication Setup**: Set up Clerk for user authentication and update the authentication settings in the application.
-
-5. **Start the Application**: Run `npm start` to launch the Discord clone application.
-
-6. **Access the Application**: Open your web browser and navigate to the application's URL to start using it.
-
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Prisma](https://www.prisma.io/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Socket.io](https://socket.io/)
+- [UploadThings](https://uploadthing.com/)
