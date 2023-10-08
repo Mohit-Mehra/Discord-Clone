@@ -67,7 +67,7 @@ export const ChatInput = ({ apiUrl, query, name, type }: ChatInputProps) => {
                     <Plus className="text-white dark:text-[#313338]" />
                   </button>
                   <Input
-                    placeholder={`Messgae ${
+                    placeholder={`Message ${
                       type === "conversation" ? name : "#" + name
                     }`}
                     disabled={isLoading}
