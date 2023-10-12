@@ -1,4 +1,4 @@
-# Discord Clone 
+# Discord Clone
 
 Welcome to the Discord Clone project! This is a feature-rich messaging application designed to replicate the popular Discord platform. It offers real-time messaging, attachment sharing, voice and video calls, advanced member management, and more. Below, we provide essential information to set up and use this Discord clone effectively.
 
@@ -131,3 +131,10 @@ User authentication is seamlessly handled by Clerk, ensuring the utmost security
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Socket.io](https://socket.io/)
 - [UploadThings](https://uploadthing.com/)
+
+## Contributing
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push to your fork and submit a pull request to the main branch
